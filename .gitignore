@@ -1,0 +1,3 @@
+.new-*.m3u
+.report*.json
+__pycache__/
