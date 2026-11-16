@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily refresh of the Italian IPTV playlists
+
+[Timer]
+OnCalendar=*-*-* 06:30:00
+RandomizedDelaySec=5min
+Persistent=true
+
+[Install]
+WantedBy=timers.target
